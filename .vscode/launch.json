@@ -7,9 +7,11 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "deno",
-            "runtimeArgs": ["run", "-A", "${fileBasename}"],
+            "runtimeArgs": ["run", "-A", "main.ts"], //---Cambiar main.ts por la ruta de tu archivo principal ej: index.ts---
             "outputCapture": "std",
             "port": 8000
         }
     ]
 }
+
+//"${fileBasename}" Nombre del archivo de la pestaña actual
